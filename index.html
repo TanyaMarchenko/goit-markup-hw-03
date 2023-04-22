@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +19,7 @@
     <link rel="" href="./portfolio.html" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Logo, Menu Nav -->
       <nav class="main-menu">
         <a class="link logo logo-first-nav" href="./index.html"
@@ -34,7 +38,7 @@
         </ul>
       </nav>
       <address class="address-list">
-        <ul class="list">
+        <ul class="list menu-contacts">
           <li>
             <a class="link contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -55,39 +59,41 @@
         <button class="button main-button" type="button">Order Service</button>
       </section>
       <!-- Section 2 -->
-      <section class="section-features">
-        <h2 class="title hidden-title pane" hidden="hidden">Features</h2>
-        <ul class="list">
-          <li>
-            <h3 class="title little-title is-active">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="title little-title">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="title little-title">Diligence</h3>
-            <p class="text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="title little-title">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
+      <div class="">
+        <section class="section-features">
+          <h2 class="title hidden-title" hidden="hidden">Features</h2>
+          <ul class="list features-list">
+            <li class="feature-item feature-one">
+              <h3 class="title little-title">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="feature-item feature-two">
+              <h3 class="title little-title">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="feature-item feature-three">
+              <h3 class="title little-title">Diligence</h3>
+              <p class="text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="feature-item feature-four">
+              <h3 class="title little-title">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- Section 3 -->
       <section class="section-doing">
         <h2 class="title medium-title">What are we doing</h2>

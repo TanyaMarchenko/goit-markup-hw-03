@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +19,7 @@
     <link rel="" href="./index.html" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Logo, Menu Nav -->
       <nav class="main-menu">
         <a class="link logo logo-first-nav" href="./index.html"
@@ -34,7 +38,7 @@
         </ul>
       </nav>
       <address class="address-list">
-        <ul class="list">
+        <ul class="list menu-contacts">
           <li>
             <a class="link contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -51,8 +55,8 @@
     <main>
       <!-- Section -->
       <section>
-        <h1 hidden="hidden">Filters</h1>
-        <ul class="list">
+        <h1 class="title hidden-title" hidden="hidden">Filters</h1>
+        <ul class="list menu-filters">
           <li>
             <button class="button filters-button" type="button">All</button>
           </li>
