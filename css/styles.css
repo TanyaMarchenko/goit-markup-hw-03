@@ -183,6 +183,8 @@ body {
 
 .features-list {
     gap: 8px;
+    min-width: 1128px;
+    min-height: 104px;
 }
 
 .feature-item {
