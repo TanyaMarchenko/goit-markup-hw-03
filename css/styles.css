@@ -169,7 +169,7 @@ body {
     overflow: hidden;
 }
 
-.menu-filters {
+.container-filters {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
@@ -177,7 +177,12 @@ body {
     justify-content: center;
 }
 
-.menu-filters, .features-list {
+.container-filters,
+.container-features,
+.container-doing,
+.container-team,
+.container-team-text,
+.container-portfolio {
     display: flex;
 }
 
@@ -207,4 +212,34 @@ body {
 
 .feature-four {
     left: 1020px;
+}
+
+.container-doing {
+    justify-content: space-around;
+    width: 1128px;
+    min-height: 412px;
+    margin: 0 auto;
+}
+
+.container-team {
+    justify-content: space-around;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container-team-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 232px;
+}
+
+.container-portfolio {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1128px;
+    min-height: 420px;
+    margin: 0 auto;
 }
