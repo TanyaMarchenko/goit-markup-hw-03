@@ -34,6 +34,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--first-logo-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
 }
 
 .logo-next-footer, .text-footer {
@@ -73,7 +76,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
 }
 
 .main-menu-link,
@@ -86,6 +89,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .medium-title {
@@ -94,6 +98,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-title {
@@ -122,7 +127,10 @@ body {
     color: #FFFFFF;
     background-color: var(--first-logo-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    min-width: 169px;
     padding: 16px 32px;
+    margin: 0 auto;
 }
 
 .filters-button {
@@ -191,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header-container,
-.main-menu-list,
+.main-menu,
 .menu-contacts,
 .button-list,
 .portfolio-list,
@@ -205,46 +213,43 @@ h1, h2, h3, h4, h5, h6, p {
 /* --- */
 
 .header-container,
-.main-menu-list,
+.main-menu,
 .menu-contacts {
     align-items: center;
 }
 
-img {
+img,
+.main-button {
     display: block;
-}
-
-.menu-contacts,
-.main-menu-list {
-    margin-right: auto;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc
 }
 
-.main-menu-list,
+.main-menu,
 .menu-contacts {
     gap: 40px;
     margin-right: auto;
-}
-
-.logo {
-    margin-right: 74px;
 }
 
 .section {
     padding: 120px 0;
 }
 
+.main-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .footer {
     padding: 100px 0;
 }
 
-.logo,
-.main-menu-list,
+.main-menu,
 .menu-contacts {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .button-list {
@@ -265,8 +270,8 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 72px;
-    gap: 24px;
-    flex-basis: calc((100% - 24px * 2) / 3);
+    gap: 16px;
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .our-team-list {
@@ -274,12 +279,12 @@ img {
     justify-content: center;
     padding-top: 72px;
     gap: 24px;
-    flex-basis: calc((100% - 24px * 3) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-list {
     flex-wrap: column;
     justify-content: space-between;
-    gap: 8px;
-    flex-basis: calc((100% - 8px * 3) / 4);
+    gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
