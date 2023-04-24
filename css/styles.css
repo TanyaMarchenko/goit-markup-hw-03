@@ -72,8 +72,8 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
+    width: 496px;
 }
 
 .main-menu-link,
@@ -143,7 +143,7 @@ body {
     background-color: #404BBF;
 }
 
-/*  */
+/* COLORS */
 
 .section-team {
     background-color: #F4F4FD;
@@ -179,15 +179,106 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+/* CONTAINER */
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    outline: 2px dashed orangered;
+    outline-offset: -2px;
+}
+
+.header-container,
+.main-menu-list,
+.menu-contacts,
+.button-list,
+.portfolio-list,
+.doing-list,
+.our-team-list,
+.features-list,
+.main-title {
+    display: flex;
+}
+
+/* --- */
+
+.header-container,
+.main-menu-list,
+.menu-contacts {
+    align-items: center;
+}
+
 img {
     display: block;
 }
 
-/* CONTAINERS */
+.main-menu-list {
+    margin-right: auto;
+}
 
-.container {
-    display: flex;
-    width: 1158;
-    margin: 0 auto;
-    padding: 0 15px;
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.main-menu-list,
+.menu-contacts {
+    gap: 40px;
+    margin-right: auto;
+}
+
+.logo {
+    margin-right: 74px;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.footer {
+    padding: 100px 0;
+}
+
+.logo,
+.main-menu-list,
+.menu-contacts {
+    padding: 24px 0;
+}
+
+.button-list {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 72px;
+    gap: 24px;
+}
+
+.portfolio-list {
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    flex-basis: calc((100% - 24px * 2) / 3);
+}
+
+.doing-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 72px;
+    gap: 24px;
+    flex-basis: calc((100% - 24px * 2) / 3);
+}
+
+.our-team-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 72px;
+    gap: 24px;
+    flex-basis: calc((100% - 24px * 3) / 4);
+}
+
+.features-list {
+    flex-wrap: column;
+    justify-content: space-between;
+    gap: 8px;
+    flex-basis: calc((100% - 8px * 3) / 4);
 }
