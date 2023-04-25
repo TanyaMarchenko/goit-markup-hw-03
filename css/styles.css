@@ -210,6 +210,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header-container,
+.main-menu,
 .main-menu-list,
 .menu-contacts,
 .button-list,
@@ -226,6 +227,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* --- */
 
 .header-container,
+.main-menu,
 .main-menu-list,
 .menu-contacts {
     align-items: center;
@@ -240,6 +242,11 @@ img,
     border-bottom: 1px solid #e7e9fc
 }
 
+.main-menu {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .main-menu-list,
 .menu-contacts {
     gap: 40px;
@@ -250,6 +257,11 @@ img,
 
 .section {
     padding: 120px 0;
+}
+
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .main-section {
@@ -272,6 +284,7 @@ img,
     justify-content: center;
     align-items: flex-start;
     padding-bottom: 72px;
+    margin-bottom: 72px;
     gap: 24px;
 }
 
@@ -295,14 +308,22 @@ img,
     padding-top: 72px;
     gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.features-list {
+    gap: 24px;
 }
 
 .feature-item {
     flex-wrap: column;
     justify-content: space-between;
-    gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list {
+    gap: 24px;
 }
 
 .team-position {
