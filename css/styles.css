@@ -92,11 +92,6 @@ body {
     font-weight: 500;
 }
 
-.main-menu-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .little-title {
     color: var(--logo-color);
     font-size: 20px;
@@ -214,6 +209,7 @@ h1, h2, h3, h4, h5, h6, p {
     outline-offset: -2px;
 }
 
+.header,
 .header-container,
 .main-menu,
 .main-menu-list,
@@ -249,11 +245,6 @@ img,
     border-bottom: 1px solid #e7e9fc;
 }
 
-.main-menu {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .main-menu-list,
 .menu-contacts {
     gap: 40px;
@@ -281,7 +272,8 @@ img,
 }
 
 .main-menu,
-.menu-contacts {
+.menu-contacts,
+.main-menu-link {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -318,10 +310,6 @@ img,
     border-radius: 0px 0px 4px 4px;
 }
 
-.features-list {
-    gap: 24px;
-}
-
 .feature-item {
     flex-wrap: column;
     justify-content: space-between;
@@ -329,7 +317,8 @@ img,
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-list {
+.our-team-list,
+.features-list {
     gap: 24px;
 }
 
