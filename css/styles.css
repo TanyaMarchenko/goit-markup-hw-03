@@ -348,14 +348,14 @@ address {
     padding: 0;
 }
 
-.logo-link-footer {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
 .logo-next-footer,
 .text-footer {
     color: #F4F4FD;
+}
+
+.logo-link-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-footer {
@@ -366,7 +366,6 @@ address {
 /* PORTFOLIO SECTION */
 
 .portfolio-section {
-    border-top: none;
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -413,6 +412,7 @@ address {
 /* PORTFOLIO */
 
 .portfolio-container {
+    border-top: none;
     flex-direction: column;
 }
 
