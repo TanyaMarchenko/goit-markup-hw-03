@@ -28,7 +28,6 @@ body {
 /* RESET START */
 
 .link {
-    display: inline-block;
     text-decoration: none;
 }
 
@@ -76,7 +75,7 @@ address {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 2px dashed orangered;
+    /* outline: 2px dashed rgb(149, 149, 255);
     outline-offset: -2px; */
 }
 
@@ -350,6 +349,7 @@ address {
 }
 
 .logo-link-footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -413,21 +413,18 @@ address {
 
 .portfolio-container {
     border-top: none;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-basis: calc((100% - 2 * 24px) / 3);
+    flex-direction: column;
 }
 
 .portfolio-list {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-item {
-    width: 360px;
-    height: 420px;
+    width: calc((100% - 48px) / 3);
 }
 
 /* APP CARDS */
