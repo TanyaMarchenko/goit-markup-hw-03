@@ -366,6 +366,7 @@ address {
 /* PORTFOLIO SECTION */
 
 .portfolio-section {
+    border-top: none;
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -412,7 +413,6 @@ address {
 /* PORTFOLIO */
 
 .portfolio-container {
-    border-top: none;
     flex-direction: column;
 }
 
