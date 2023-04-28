@@ -28,7 +28,6 @@ body {
 /* RESET START */
 
 .link {
-    display: inline-block;
     text-decoration: none;
 }
 
@@ -350,6 +349,7 @@ address {
 }
 
 .logo-link-footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -431,6 +431,7 @@ address {
 
 .app-card {
     border-top: none;
+    border: 1px solid #e7e9fc;
     width: 360px;
     min-height: 56px;
     flex-direction: column;
