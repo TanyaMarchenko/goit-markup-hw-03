@@ -348,19 +348,19 @@ address {
     padding: 0;
 }
 
-.logo-link-footer {
+.link-footer {
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.logo-next-footer,
-.text-footer {
-    color: #F4F4FD;
 }
 
 .text-footer {
     width: 264px;
     padding-top: 16px;
+}
+
+.logo-next-footer,
+.text-footer {
+    color: #F4F4FD;
 }
 
 /* PORTFOLIO SECTION */
@@ -420,10 +420,11 @@ address {
     row-gap: 48px;
     column-gap: 24px;
     flex-basis: calc((100% - 2 * 24px) / 3);
+    border: none;
 }
 
 .portfolio-item {
-    border: 1px solid #e7e9fc;
+    border-top: none;
     width: calc((100% - 48px) / 3);
 }
 
@@ -431,7 +432,9 @@ address {
 
 .app-card {
     border-top: none;
-    border: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
     width: 360px;
     min-height: 56px;
     flex-direction: column;
