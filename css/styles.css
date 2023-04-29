@@ -134,7 +134,6 @@ address {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 76px;
     flex-direction: row;
     align-items: center;
 }
@@ -162,6 +161,7 @@ address {
 /* TITLES */
 
 .main-title {
+    display: block;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -217,11 +217,12 @@ address {
 }
 
 .main-button {
+    display: block;
+    text-align: center;
     color: #FFFFFF;
     background-color: var(--first-logo-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
-    text-align: center;
     min-width: 169px;
     min-height: 56px;
     padding: 16px 32px;
