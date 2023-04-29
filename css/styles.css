@@ -169,7 +169,7 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto 48px;
 }
 
@@ -218,6 +218,7 @@ address {
 }
 
 .main-button {
+    display: block;
     text-align: center;
     color: #FFFFFF;
     background-color: var(--first-logo-color);
