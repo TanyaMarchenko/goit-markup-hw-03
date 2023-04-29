@@ -344,12 +344,10 @@ address {
 .container-footer {
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;
     padding: 0;
 }
 
 .text-footer {
-    display: inline-block;
     width: 264px;
 }
 
