@@ -355,8 +355,13 @@ address {
 
 .link-footer {
     width: 115px;
-    display: inline-block;
     margin-bottom: 16px;
+}
+
+.link-footer,
+.logo-first-footer,
+.logo-next-footer{
+    display: inline-block;
 }
 
 /* PORTFOLIO SECTION */
