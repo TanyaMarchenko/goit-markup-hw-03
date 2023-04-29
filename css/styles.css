@@ -106,6 +106,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--first-logo-color);
+    display: inline-block;
 }
 
 .logo-link-nav {
@@ -354,9 +355,8 @@ address {
 }
 
 .link-footer {
-    width: 115px;
-    display: inline-block;
     margin-bottom: 16px;
+    min-width: 115px;
 }
 
 /* PORTFOLIO SECTION */
