@@ -364,8 +364,8 @@ address {
 
 .link-footer {
     display: inline-block;
-    margin-bottom: 16px;
     min-width: 115px;
+    margin-bottom: 16px;
 }
 
 /* PORTFOLIO SECTION */
