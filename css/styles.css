@@ -349,6 +349,7 @@ address {
 }
 
 .link-footer {
+    display: inline-block;
     width: 115px;
     margin-bottom: 16px;
 }
