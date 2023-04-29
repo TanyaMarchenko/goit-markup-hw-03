@@ -65,7 +65,7 @@ address {
 /* HIDDEN TITLES */
 
 .hidden-title {
-    overflow: hidden;
+    visibility: hidden;
     display: none;
 }
 
