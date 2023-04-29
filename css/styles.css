@@ -348,23 +348,24 @@ address {
     padding: 0;
 }
 
-.link-footer {
-    display: inline-block;
-    width: 115px;
-    margin-bottom: 16px;
-}
-
-.logo-next-footer {
-    display: inline-block;
-}
-
 .text-footer {
+    display: inline-block;
     width: 264px;
 }
 
 .logo-next-footer,
 .text-footer {
     color: #F4F4FD;
+}
+
+.logo-next-footer {
+    display: inline-block;
+}
+
+.link-footer {
+    display: inline-block;
+    width: 115px;
+    margin-bottom: 16px;
 }
 
 /* PORTFOLIO SECTION */
