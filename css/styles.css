@@ -354,8 +354,8 @@ address {
 }
 
 .link-footer {
-    display: inline-block;
     width: 115px;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
