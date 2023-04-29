@@ -354,14 +354,9 @@ address {
 }
 
 .link-footer {
+    display: inline-block;
     width: 115px;
     margin-bottom: 16px;
-}
-
-.link-footer,
-.logo-first-footer,
-.logo-next-footer {
-    display: inline-block;
 }
 
 /* PORTFOLIO SECTION */
