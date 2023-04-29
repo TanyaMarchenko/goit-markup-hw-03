@@ -110,8 +110,6 @@ address {
 
 .logo-link-nav {
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 /* MENU NAV */
@@ -353,10 +351,6 @@ address {
 .logo-next-footer,
 .text-footer {
     color: #F4F4FD;
-}
-
-.logo-next-footer {
-    display: inline-block;
 }
 
 .link-footer {
